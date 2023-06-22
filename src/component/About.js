@@ -2,9 +2,8 @@ import Navbar from './Navbar';
 import './AboutStyle.css';
 import Footer from './Footer';
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 const About = () =>{
-    const navigate=useNavigate();
+    // const navigate=useNavigate();
        
 
     return (
@@ -39,7 +38,7 @@ const About = () =>{
                <p> Their culinary expertise and creativity result in unique flavors and exceptional 
                     
                     </p>
-               <a href='#' className='learn-more'>Learn More</a>
+               <button href='#' className='learn-more'>Learn More</button>
                </div> 
                 </div>
             </div>

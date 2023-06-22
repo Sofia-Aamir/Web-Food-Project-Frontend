@@ -17,7 +17,7 @@ const Home=()=>{
              <p>
              Food is an essential part of our lives, providing nourishment, pleasure, and cultural significance. It encompasses a vast array of flavors, textures, and aromas that vary across different cuisines and regions. Food not only serves as a source of energy and sustenance for our bodies but also holds the power to evoke memories, bring people together, and express cultural identity. 
              </p>
-             <a href="#" className="btn">get yours now</a>
+             <button href="#" className="btn">get yours now</button>
             </div>
 
         </section> 
