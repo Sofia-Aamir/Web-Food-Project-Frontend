@@ -1,6 +1,8 @@
+import React from 'react';
 import './Footer.css';
 const Footer = () => {
     return (
+      
         <footer>
             <div className="footer-container">
                 <div className="logo-social-section">
@@ -51,7 +53,8 @@ const Footer = () => {
             </div>
 
         </footer>
-    );
+        
+    )
 };
 
 export default Footer;
