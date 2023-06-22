@@ -1,7 +1,7 @@
 import axios from 'axios'
 export const getProducts = async () => {
   try {
-    const res = await axios.get("http://localhost:5000/product");
+    const res = await axios.get("https://food-web-server.onrender.com/product");
     // console.log(res.data)
     return res.data
   } catch (e) {
@@ -13,7 +13,7 @@ export const getProducts = async () => {
 
 export const addProduct = async (productData) =>{
   try{
-  await axios.post('http://localhost:5000/product',productData); 
+  await axios.post('https://food-web-server.onrender.com/product',productData); 
    
   }
   catch(error){
@@ -24,7 +24,7 @@ export const addProduct = async (productData) =>{
 export const deleteProduct = async (productId) => {
   try {
     console.log(productId);
-    await axios.delete(`http://localhost:5000/product/${productId}`);
+    await axios.delete(`https://food-web-server.onrender.com/product/${productId}`);
     console.log('Product deleted successfully');
   } catch (error) {
     console.log(error);
@@ -34,7 +34,7 @@ export const deleteProduct = async (productId) => {
 
 export const updateProduct = async (productId, updatedProductData) => {
   try {
-    await axios.put(`http://localhost:5000/product/${productId}`, updatedProductData);
+    await axios.put(`https://food-web-server.onrender.com/product/${productId}`, updatedProductData);
 
     console.log('Product updated successfully');
   } catch (error) {
