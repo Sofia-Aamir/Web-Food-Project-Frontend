@@ -11,7 +11,7 @@ const SingleCard=({card,handleProductClick,addToCart})=>{
                                 <p className="card-text">{card.description}</p>
                                 <div className="card-details">
                                     <p className="card-price">{card.price}</p>
-                                    <a href="#" className="add-to-bucket-buttons" onClick={()=>addToCart(card)}>Add to bucket</a>
+                                    <button href="#" className="add-to-bucket-buttons" onClick={()=>addToCart(card)}>Add to bucket</button>
                                     
                                 </div>
                             </div>

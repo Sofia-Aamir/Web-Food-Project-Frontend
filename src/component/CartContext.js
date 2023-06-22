@@ -4,7 +4,7 @@ export const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
   
-    const [cardsData,set] = useState([
+    const [cardsData] = useState([
         {
             id: 1,
             image: '/images/top1.jpg',

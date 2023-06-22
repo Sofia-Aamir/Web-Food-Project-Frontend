@@ -1,10 +1,7 @@
 import './Cards.css';
 import Cart from './Cart';
-import SingleCard from './SingleCard';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect,useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AppContext } from './CartContext';
-import { useContext } from 'react';
 import { getProducts } from '../api/items';
 
 
@@ -15,7 +12,7 @@ const Content = () => {
     // const {cardsData}= useContext(AppContext);
     
     const [cardsData, setData] = useState([]);
-  const [editingItemId, setEditingItemId] = useState(null);
+  // const [editingItemId, setEditingItemId] = useState(null);
 
   useEffect(() => {
     fetchData();
@@ -29,15 +26,15 @@ const Content = () => {
     
 
     const [cart, setCart] = useState([]);
-  const [showCart, setShowCart] = useState(false);
+  // const [setShowCart] = useState(false);
 
   const addToCart = (data) => {
     setCart([...cart, { ...data, quantity: 1 }]);
   };
 
-  const handleShow = (value) => {
-    setShowCart(value);
-  };
+  // const handleShow = (value) => {
+  //   setShowCart(value);
+  // };
 
   const handleRemove = (id) => {
     const newCart = cart.filter((item) => item.id !== id);
@@ -73,7 +70,7 @@ const Content = () => {
                           <p className="card-text">{card.category}</p>
                           <div className="card-details">
                               <p className="card-price">{card.price}</p>
-                              <a href="#" className="add-to-bucket-buttons" onClick={()=>addToCart(card)}>Add to bucket</a>
+                              <button href="#" className="add-to-bucket-buttons" onClick={()=>addToCart(card)}>Add to bucket</button>
                               
                           </div>
                       </div>

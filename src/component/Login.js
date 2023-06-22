@@ -28,7 +28,9 @@ const   Login = () =>{
                        <button className="login-button">Login</button>
                        </div>
                        <div className="remainders">
-                        <a href="#">Forgot Password?</a> or <a href="/signup">sign-up</a>
+                        {/* <a>Forgot Password?</a> or <a>sign-up</a> */}
+                        <button>Forget passowrd</button>
+                        <button>signup</button>
                        </div>
                     </div>
                 </div>

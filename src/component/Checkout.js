@@ -2,7 +2,6 @@ import React from 'react';
 import './CheckoutStyle.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import { Link } from 'react-router-dom';
 import  { useState } from 'react';
 // import { addOrder } from '../Service/api';
 
@@ -16,7 +15,7 @@ const Checkout = () => {
     ccv: '',
   });
 
-  const {name,card,number,expiry,ccv} = formData;
+  // const {name,card,number,expiry,ccv} = formData;
 
   const handleSubmit = (e) => {
     e.preventDefault();

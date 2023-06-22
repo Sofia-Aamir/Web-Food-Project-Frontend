@@ -1,13 +1,9 @@
 import React from 'react';
 import './Style.css';
 import { Link } from 'react-router-dom';
-import { useState,useContext } from 'react';
 import { useRef } from 'react';
 
 const Navbar = () => {
-  
-
-
 
     const searchRef=useRef();
     const cartRef=useRef();
@@ -31,9 +27,9 @@ const Navbar = () => {
   return (
     <div>
     <header className='header'>
-      <a href='#' className="mainlogo">
+      <button href='#' className="mainlogo">
         <img src="./images/logo.jpg" alt="Logo" /> 
-      </a>
+      </button>
       
        <nav className='navbar' ref={navbarRef}>
        <Link to='/addproduct'>Admin</Link>

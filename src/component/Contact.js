@@ -1,12 +1,10 @@
 import Navbar from './Navbar';
 import styles from './ContactStyle.module.css';
 import Footer from './Footer';
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 const Contact=()=>{
-    const [count,setCount]=useState(0);
+    // const [count,setCount]=useState(0);
 
-    const [bucketstate,setBucketstate]=useState("Add to Bucket");
+    // const [bucketstate,setBucketstate]=useState("Add to Bucket");
         // const navigate =useNavigate();
         // function goToLogin(){
         //     navigate("/Login");
@@ -25,7 +23,7 @@ const Contact=()=>{
             <div className={styles.item_details}>
                 <div className={styles.item_image}>
                 <div className={styles.iframe_container}>
-                <iframe className={styles.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105627.88753409019!2d73.16589825312104!3d34.175203280322336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38de3111557ac517%3A0x6e59a635b12e952c!2sAbbottabad%2C%20Khyber%20Pakhtunkhwa%2C%20Pakistan!5e0!3m2!1sen!2s!4v1680711702925!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
+                {/* <iframe className={styles.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105627.88753409019!2d73.16589825312104!3d34.175203280322336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38de3111557ac517%3A0x6e59a635b12e952c!2sAbbottabad%2C%20Khyber%20Pakhtunkhwa%2C%20Pakistan!5e0!3m2!1sen!2s!4v1680711702925!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe> */}
             </div>
                 </div>
                 <div className={styles.item_desc}>
