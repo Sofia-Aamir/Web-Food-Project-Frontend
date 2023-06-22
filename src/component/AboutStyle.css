@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=roboto:wght@100;300;400;500;700&display=swap");
+
+*{
+    font-family: "Roboto",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+html{
+    font-size: 62.5;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 0.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #ffc107;
+    border-radius: 5rem;
+}
+
+body{
+   background: black;
+    overflow-x: hidden;
+}
+
+.about{
+    background: black;
+    height: 120vh;
+    background:linear-gradient(90deg, rgb(0 0 0/90%),rgba(82, 81, 81, 0.35)),url("https://hips.hearstapps.com/hmg-prod/images/jajangmyeon-4-1649171209.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*") ;
+    padding: 80px;
+    
+}
+
+
+    .row {
+        display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+      }
+      
+      .image {
+        position: absolute;   
+     top: 240px;  
+     left: 130px;
+        /* width: 50%; */
+        /* margin-right: 20px;  */
+        margin-top: 90px;
+      }
+      
+      .content {
+        width: 50%;
+    position: absolute;   
+     top: 260px;  
+     left: 40%;
+        /* margin-left: 60px;  */
+        margin-top: 90px;
+        padding: 20px;
+        background:linear-gradient(90deg, rgb(0 0 0/90%),rgba(82, 81, 81, 0.35));
+      }
+      .image img {
+        width: 400px; 
+        height: 400px; 
+        object-fit: cover;
+        /* margin-top: 40px;
+        margin-left: 200px; */
+      }
+      
+      
+      .content h3 {
+        font-size: 40px; 
+        margin-bottom: 10px; 
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ffc107;
+      }
+      
+      .content p {
+        font-size: 16px; 
+        margin-bottom: 10px; 
+        color: white;
+        line-height: 1.8;
+      }
+
+      .learn-more {
+        padding: 10px 20px;
+        background-color: orange;
+        color: black;
+        text-decoration: none;
+        border-radius: 1rem;
+        transition: transform 0.3s, color 0.3s;
+      }
+      
+      .learn-more:hover {
+        transform: scale(1.1);
+        color: #333333;
+      }
+
+      .heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 100vh; */
+        /* margin: 0; */
+
+    padding: 70px;
+    text-transform: uppercase;
+    gap: 10px;
+      }
+
+      .heading span{
+        text-transform: uppercase;
+      }

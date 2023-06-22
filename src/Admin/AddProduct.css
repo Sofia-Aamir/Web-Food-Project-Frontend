@@ -1,0 +1,63 @@
+.Admin-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+
+}
+  
+  .Admin-login {
+    margin-bottom: 100px;
+  }
+  
+  .Admin-login label {
+    font-weight: bold;
+  }
+  
+  .Admin-login input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .Admin-login button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+   
+    color: black;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .Admin-login button:hover {
+    background-color: #ff6600;
+  }
+
+  thead {
+    background-color: white;
+    color: Black;
+    transition: transform 0.2s ease;
+    position: relative;
+  top: 150px;
+  gap: 4px;
+  }
+  
+  thead:hover {
+    transform: translateY(2px);
+  }
+
+  tbody{
+    position: relative;
+    top: 180px;
+    color: white;
+    
+  }
+
+  tbody .button-container{
+    background-color: #ff6600;
+    color: aliceblue;
+  }

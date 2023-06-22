@@ -1,0 +1,45 @@
+.user_form_operations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+  
+  }
+    
+    .user_form_operations{
+      margin-bottom: 100px;
+    }
+    
+    .user_form_operations label {
+      font-weight: bold;
+    }
+    
+    .user_form_operations input {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    .user_form_operations button {
+      margin-right: 10px;
+      margin-bottom: 10px;
+     
+      color: black;
+      border: none;
+      border-radius: 3px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  
+    .user_form_operations button:hover {
+      background-color: #ff6600;
+    }
+
+    .user_form_operations  h2{
+      color: orange;
+    font-weight: 100;
+    }
+  
+    

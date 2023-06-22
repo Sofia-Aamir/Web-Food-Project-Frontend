@@ -1,0 +1,100 @@
+
+  .content-wrapper {
+    background-color: #000;
+    height: 110vh;
+  }
+  
+  .selling-container {
+    color: #fff;
+    padding: 5px;
+    
+  }
+
+  .heading2 h2{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 60px;
+    color: #ffc107;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+  }
+
+  .selling-container {
+    color: #fff;
+    margin-left: 4rem; /* Adjust the value as per your preference */
+  }
+  
+  .TopSellingcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #ccc;
+    margin: 1rem;
+    width: 18rem;
+  }
+  
+  .card-title,
+  .card-text,
+  .card-price {
+    color: #000;
+  }
+  
+  .card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-to-bucket-buttons {
+    background-color: #ffc107;
+    color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 2rem;
+    font-size: 1.2;
+    font-weight: bold;
+  }
+  
+  .add-to-bucket-buttons:hover {
+    background-color: #800000;
+    color: #fff;
+    transform: scale(1.1);
+  }
+
+  
+  .card-details .card-price{
+    font-size:1.6rem;
+    font-weight: bold;
+  }
+
+  .card-body .card-title{
+    font-size:1.6rem;
+    font-weight: bold;
+  }
+
+  .card-body{
+    background: blanchedalmond;
+  }
+
+
+  .top-selling-front-line::after{
+    top: 10%;
+    width: 82%;
+    height: 2px;
+    content: '';
+    z-index: 1;
+    position: absolute;
+    background-color: #ffc107;
+   left: 17%;
+   
+}
+
+
+
+
+
+  

@@ -1,0 +1,139 @@
+ .item_container{
+    background-color: black;
+    position: relative;
+    height: 90vh;
+    padding: 38.4px;
+}
+
+
+.TopButton{
+    color: white;
+    width: 30%;
+    display: flex;;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;    
+    height: 30px;
+    border: 0;
+    border-radius: 6px;
+    background-color: red;
+    padding: 10px;
+
+    
+    }
+.map{
+width: 80%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.btn_h4{
+    font-size: 12px;
+}
+
+.item_image{
+    height: 400px;
+    width: 500px;   
+    background-size:80% 90%;
+}
+.item_details{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+}
+
+
+.additional_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+h1{
+  color: orange;
+  text-transform: uppercase;
+  font-size: 40px;
+  
+  
+}
+
+form{
+  margin-right: 60px;
+  margin-top: 20px;
+}
+
+.inputBox{
+  width: 80px;
+  height: 80px;
+}
+
+input{
+  width: 300px;
+  height: 35px;
+  border: 1px solid orange;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 15px;
+ 
+}
+
+#usericon {
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+}
+
+.fas.fa-envelope{
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+}
+
+.fas.fa-phone{
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+}
+.Contactnowbutton{
+width: 200px;
+height: 40px;
+color: black;
+font-size: 20px;
+border-radius: 20px;
+background-color: orange;
+}
+
+.contact-us-heading{
+  display: flex;
+        justify-content: center;
+        align-items: center;
+
+    padding: 10px;
+    text-transform: uppercase;
+    gap: 10px;
+ 
+}
+
+span{
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+input[type='name']::placeholder {
+  padding-left: 15px;
+}
+
+input[type='email']::placeholder {
+  padding-left: 15px;
+}
+
+
+input[type='phone']::placeholder {
+  padding-left: 15px;
+}

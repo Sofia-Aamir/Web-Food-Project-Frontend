@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=roboto:wght@100;300;400;500;700&display=swap");
+
+*{
+    font-family: "Roboto",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+html{
+    font-size: 62.5;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 0.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #ffc107;
+    border-radius: 5rem;
+}
+
+body{
+   background: black;
+    overflow-x: hidden;
+}
+
+/* =================================================================================================== */
+ .menuheading {
+    color: white;
+    font-size: 40px;
+    font-style:normal;
+    /* font-weight:900; */
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.menuheading span {
+    color: #ffc107;
+    font-style:normal;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+
+.menu{
+    background: black;
+    height: 160vh;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display three boxes in a row */
+    gap: 1rem;
+    margin-top: -35px;
+}
+
+.menu .box-container .box{
+    padding: 2rem;
+    text-align: center;
+    border: 0.2rem solid #ffc107;
+    height: 380px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+    width: 10rem;
+    /* border-radius: 50%; */
+}
+
+.menu .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+}
+
+.menu .box-container .box .price span{
+    font-size: 1rem;
+    /* text-decoration: line-through; */
+    font-weight: lighter;
+    /* color: #fff; */
+}
+
+.menu .box-container .box:hover{
+    background: #443300;
+    transition: 0.5s;
+}
+.price {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.Add-to-cart-button {
+    background-color: orange;
+    color: black;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    transition: transform 0.2s;
+    width: 10px;
+    border-radius: 1.5rem;
+}
+
+.Add-to-cart-button:hover {
+    /* transform: scale(1.2); */
+    text-transform: uppercase;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+        justify-content: center;
+    gap: 1rem;
+}
+
+.quantity button {
+    background-color: orange;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+
+.price-span{
+    text-decoration: line-through;
+}
+
+.quantity-span{
+    color: white;
+   
+}
+
